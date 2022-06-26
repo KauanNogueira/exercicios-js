@@ -19,6 +19,3 @@ console.log(templateString);
 
 console.log(citacao + meuNome)
 
-const cpf = '123.456.789-10';
-const cpfSemPontos = cpf.replace(/\./g, '');
-console.log(cpfSemPontos);
