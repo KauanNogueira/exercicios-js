@@ -15,7 +15,7 @@ console.log(String(numero) + String(numeroString))
 const height = "12";
 const length = "12";
 
-if (height === Number(height) & length === Number(length)) {
+if (height === Number(height) && length === Number(length)) {
     const area = height * length
     console.log(`The rectangle area is ${area}`)
 } else {
