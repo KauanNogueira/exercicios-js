@@ -1,11 +1,3 @@
-// log -> registro
-
-const minhaVar = true;
-
-console.log(256)
-console.log("Hi")
-console.log(minhaVar);
-
 console.time()
 for (let i = 0; i < 100000; i++) {
     let a = i * 85;
@@ -14,7 +6,3 @@ for (let i = 0; i < 100000; i++) {
 }
 
 console.timeEnd()
-
-// tratamento de erro!
-
-console.error('deu erro aqui meo!')
